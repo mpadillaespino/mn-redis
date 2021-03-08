@@ -1,4 +1,7 @@
 micronaut:
   application:
     name: mnRedis
-redis.uri: redis://localhost
+redis:
+  uri: redis://localhost
+  ssl: false
+  timeout: 30s
